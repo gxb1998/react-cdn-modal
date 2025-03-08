@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-cdn-modal/static/js/main.5bf24123.js",
+    "main.js": "/react-cdn-modal/static/js/main.36f22fe9.js",
     "index.html": "/react-cdn-modal/index.html",
-    "main.5bf24123.js.map": "/react-cdn-modal/static/js/main.5bf24123.js.map"
+    "main.36f22fe9.js.map": "/react-cdn-modal/static/js/main.36f22fe9.js.map"
   },
   "entrypoints": [
-    "static/js/main.5bf24123.js"
+    "static/js/main.36f22fe9.js"
   ]
 }

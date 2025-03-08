@@ -1,10 +1,15 @@
 import { ModalController } from './Modal';
 
-const instance = new ModalController();
+// 创建单例实例
+const controller = new ModalController();
 
-// 挂载到全局对象
+// 明确挂载方法到 window
 if (typeof window !== 'undefined') {
-  window.MyCDNModal = instance;
+  window.MyCDNModal = {
+    show: () => controller.show(),
+    hide: () => controller.hide()
+  };
 }
 
-export default instance;
+// 重要：保留默认导出
+export default controller;
